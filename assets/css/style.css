@@ -1,0 +1,329 @@
+.content-wrapper {
+  background: #e9f6fc;
+}
+.main-header .logo span img {
+  width: 55%;
+}
+.dashboardDimia .main-header .navbar {
+  background: #0071bc;
+}
+.dashboardDimia .main-header .logo {
+  background: #0071bc;
+}
+.dashboardDimia .main-sidebar {
+  background: #ffffff;
+}
+.dashboardDimia .sidebar-menu>li:hover>a {
+  color: #6cc4ea;
+  background: #eaf7fd;
+}
+.dashboardDimia .sidebar-menu>li>.treeview-menu {
+  background: #ffffff;
+}
+.skin-blue .sidebar-menu .treeview-menu>li>a:hover {
+  color: #4ebae7;
+  background: #fafbfb;
+}
+.skin-blue .sidebar-menu .treeview-menu>li>a {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.skin-blue .sidebar-menu>li.menu-open>a {
+  background: #eaf7fd;
+}
+.content-header-admin {
+  padding: 30px;
+  background: #29abe2;
+}
+.content-header-admin .headPage ol{
+  padding: 0px;
+  background: transparent;
+}
+.content-header-admin .headPage ol li {
+  color: #f9f9f9;
+  font-size: 18px;
+}   
+.content-header-admin .headPage ol li a{
+  font-size: 18px;
+  color: #f9f9f9;
+}
+.content-header-admin .head-form .input-group {
+  width: 100%;
+}
+.content-header-admin .head-form .input-group button{
+  right: 7px;
+  z-index: 3;
+  position: absolute;
+  color: #ffffff;
+  width: 18%;
+  margin-top: 3px;
+  background: transparent;
+  display: block;
+  font-size: 16px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url(../img/bg-button-small.png);
+}   
+.content-header-admin .head-form .input-group input {
+  height: 45px;
+  border-radius: 25px;
+}
+#keywordOverview {
+  padding: 30px;
+  background: #76c9ec;
+}
+#keywordOverview .headOverview h2 {
+  margin: 0px;
+  color: #f9f9f9;
+  font-weight: 600;
+}
+#keywordOverview .headOverview {
+  margin-bottom: 20px;
+}
+#keywordOverview .headOverview h2 span{
+  font-weight: 100;
+}
+#keywordOverview .tabSosmed {
+  padding: 10px;
+  overflow: hidden;
+  border-radius: 7px;
+  background: #0071bc;
+}
+#keywordOverview .tabSosmed .imgIcon .bgimgIcon{
+  width: 50px;
+  float: left;
+  height: 50px;
+  line-height: 40px;
+  padding: 3px;
+  text-align: center;
+  border-radius: 50%;
+  background: #99c6e4;
+}
+#keywordOverview .tabSosmed .imgIcon .bgimgIcon img{
+  width: 37px;
+}
+#keywordOverview .tabSosmed .imgIcon p{
+  color: #f9f9f9;
+  font-size: 18px;
+  text-align: right;
+  padding-top: 10px;
+  padding-right: 30px;
+}
+#keywordIdeas .chart {
+  width: auto;
+  margin: 30px;
+  margin-bottom: 0px;
+}
+#keywordIdeas .chart .box-info {
+  margin-bottom: 0px; 
+}
+#keywordIdeas .sosmedigtab {
+  margin-top: 30px;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+#keywordIdeas .sosmedigtab .keywordHead {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dddddd;
+}
+#keywordIdeas .sosmedigtab .keywordHead .textHead h2 {
+  margin: 0px;
+  font-weight: 600;
+}
+#keywordIdeas .sosmedigtab .keywordHead .selectKeywords {
+  float: right;
+  width: 60%;
+}
+#keywordIdeas .sosmedigtab .keywordHead .selectKeywords form label{
+  float: left;
+  padding-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+}
+#keywordIdeas .sosmedigtab .keywordHead .selectKeywords form select{
+  width: 75%;
+  border-top: 0px;
+  border-left: 0px;
+  background: transparent;
+  border-right: 0px;
+}
+#keywordIdeas .sosmedig {
+  padding: 20px;
+  border-radius: 25px;
+  background: #ffffff;
+}
+#keywordIdeas .sosmedig .media .media-left {
+  padding-right: 20px;
+}
+#keywordIdeas .sosmedig .media .media-left a img {
+  width: 45px;
+}
+#keywordIdeas .sosmedig .media .media-body h4 {
+  color: #9c9c9c;
+  margin-bottom: 0px;
+}
+#keywordIdeas .sosmedig .media .media-body p {
+  margin: 0px;
+  color: #464646;
+  font-size: 24px;
+  font-weight: 600;
+}
+#popular {
+  padding: 30px;
+}
+#popular .headPopular {
+  margin-bottom: 40px;
+}
+#popular .headPopular p {
+  float: left;
+  color: #636161;
+  font-size: 16px;
+  margin-top: 2px;
+  margin-right: 20px;
+  margin-bottom: 0px;
+}
+#popular .tabCategory {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #dddddd;
+}
+#popular .headPopular h2 {
+  margin:0px;
+  font-size: 23px;
+  font-weight: 600;
+}
+#popular .categoriesSosmed .media .media-left a img {
+  width: 45px;
+  padding-top: 3px;
+}
+#popular .categoriesSosmed .media .media-body h4 {
+  color: #9c9c9c;
+  margin-bottom: 0px;
+}
+#popular .categoriesSosmed .media .media-body p {
+  color: #464646;
+  font-weight: 600;
+  font-size: 24px;
+  margin: 0px;
+}
+.masonry {
+  margin-top: 40px;
+}
+.masonry .brick .bgMasonry{
+  position: relative;
+}
+
+.masonry .brick .descMasonry {
+  margin-top: 5px;
+}
+.masonry .brick .descMasonry p {
+  margin: 0px;
+}
+.masonry .brick .descMasonry span {
+  color: #c1c1c1;
+}
+
+.masonry .hoverDetail {
+  display: none;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: #000000;
+  opacity: 0.8;
+  color: #ffffff;
+  text-align: center;
+}
+.masonry .hoverDetail button {
+  width: 135px;
+  height: 35px;
+  color: #000000;
+  background: #ffffff;
+}
+.masonry .hoverDetail .bgHover {
+  position: relative;
+  top: 35%;
+}
+.masonry .hoverDetail .detailValue {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.masonry .hoverDetail .detailValue span {
+  margin: 0px 9px;
+  font-size: 16px;
+}
+.masonry .brick img:hover + .hoverDetail{
+  display: block;
+}
+
+.masonry .brick img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+#modalIG .modal-content {
+  border-radius: 30px;
+}
+#modalIG .modal-content .modalImg {
+  float: left;
+  width: 50%;
+}
+#modalIG .modal-content .modalDesc {
+  width: 50%;
+  float: left;
+  padding: 20px;
+}
+
+#modalIG .modal-content .modalDesc .titlemodal h2 {
+  margin: 0px;
+  font-size: 21px;
+  font-weight: 600;
+}
+#modalIG .modal-content .modalDesc .cardCaption .headCaption {
+  overflow: hidden;
+  border-top: 1px solid #dddddd;
+  padding-top: 10px;
+  margin-top: 15px;
+}
+#modalIG .modal-content .modalDesc .cardHastag .headCaption {
+  border-top: 0px;
+}
+#modalIG .modal-content .modalDesc .cardCaption .headCaption h2{
+  float: left;
+  margin: 0px;
+  font-size: 16px;
+  font-weight: 600;
+}
+#modalIG .modal-content .modalDesc .cardCaption .headCaption .copy {
+  float: right;
+}
+#modalIG .modal-content .modalDesc .cardCaption .headCaption .copy .btnCopy {
+  border: 1px solid #9595da;
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+#modalIG .modal-content .modalDesc .cardCaption .contentModal .bgContent p {
+  margin: 0px;
+}
+#modalIG .modal-content .modalDesc .cardCaption .contentModal {
+  margin-top: 10px;
+}
+
+#modalIG .modal-content .modalDesc .cardCaption .contentModal .bgContent {
+  border: 1px solid #dddddd;
+  padding: 10px;
+  border-radius: 11px;
+}
+
+#modalIG .modal-body {
+  padding: 0px;
+}
+#modalIG .modal-content .modal-body {
+  overflow: hidden;
+  border-radius: 30px;
+}
+#modalIG .modal-body .modalContent .modalImg img {
+  width: 100%;
+}
