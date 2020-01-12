@@ -315,7 +315,31 @@
   border: 1px solid #dddddd;
   padding: 10px;
   border-radius: 11px;
+  height: 115px;
+  overflow: auto;
 }
+
+#modalIG .modal-content .modalDesc .cardCaption .contentModal .bgContent::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 25px;
+  background-color: #e9f6fc;
+}
+
+#modalIG .modal-content .modalDesc .cardCaption .contentModal .bgContent::-webkit-scrollbar
+{
+  width: 6px;
+  height: 30px;
+  background-color: #e9f6fc;
+}
+
+#modalIG .modal-content .modalDesc .cardCaption .contentModal .bgContent::-webkit-scrollbar-thumb
+{
+  border-radius: 25px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #76c9ec;
+}
+
 
 #modalIG .modal-body {
   padding: 0px;
@@ -327,3 +351,58 @@
 #modalIG .modal-body .modalContent .modalImg img {
   width: 100%;
 }
+
+.tableComment table tr td {
+  line-height: 55px;
+}
+.tableComment table tr td img {
+  width: 100px;
+  border-radius: 10px;
+}
+.tableComment table tr td p.username {
+  margin: 0px;
+  color: #76c9ec;
+  font-weight: 600;
+}
+.tableComment table tr td button {
+  color: #29abe2;
+  padding: 5px 15px;
+  border-radius: 20px;
+  background: transparent;
+  border: 1px solid #76c9ec;
+}
+.tableComment table tr td button:hover {
+  background: #29abe2;
+  color: #ffffff;
+}
+.tableComment .pagingTable {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.tableComment .pagingTable p {
+  text-align: center;
+}
+.tableComment .pagingTable p i{
+  cursor: pointer;
+}
+.tableComment .pagingTable p i:hover{
+  color: #29abe2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
