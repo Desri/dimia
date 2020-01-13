@@ -383,6 +383,98 @@
   background-color: #76c9ec;
 }
 
+.bodyKeyword {
+  background: #e9f6fc;
+}
+#contentKeywordSearch {
+  text-align: center;
+  padding-top: 40px;
+}
+
+#contentKeywordSearch .bigTagline {
+  margin-top: 40px;
+}
+#contentKeywordSearch .bigTagline h2 {
+  font-size: 45px;
+  font-weight: bold;
+  color: #4c4c4c;
+}
+#contentKeywordSearch .bigTagline p {
+  font-size: 23px;
+  margin-top: 20px;
+}
+#contentKeywordSearch .brandMarketplace {
+  margin-top: 40px;
+}
+#contentKeywordSearch .brandMarketplace .col .bgMarketplacce{
+  background: #ffffff;
+  overflow: hidden;
+  padding: 10px;
+}
+#contentKeywordSearch .brandMarketplace .col{
+  /*width: 18%;
+  float: left;
+  margin: 10px;*/
+}
+#contentKeywordSearch .brandMarketplace .col img{
+  width: 35px;
+}
+#contentKeywordSearch .brandMarketplace .col .bgMarketplacce .iconMarketplace {
+  float: left;
+}
+#contentKeywordSearch .brandMarketplace .col .bgMarketplacce .textMarketplace {
+  float: right;
+  /*padding-right: 10px;*/
+  padding-top: 25px;
+  text-align: right;
+}
+#contentKeywordSearch .brandMarketplace .col .bgMarketplacce .textMarketplace h2{
+  margin: 0px;
+  font-size: 22px;
+  font-weight: 600;
+}
+#contentKeywordSearch .searchKeyword {
+  margin-top: 50px;
+}
+#contentKeywordSearch .searchKeyword form .input-group-keyword {
+  position: relative;
+}
+#contentKeywordSearch .searchKeyword form .input-group-keyword input{
+  height: 55px;
+  border-radius: 30px;
+}
+#contentKeywordSearch .searchKeyword form .input-group-keyword button{
+  top: 4px;
+  right: 5px;
+  position: absolute;
+  margin: auto;
+  line-height: 34px;
+  text-align: center;
+  padding-top: 5px;
+  width: 200px;
+  color: #ffffff;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url(../img/master/bg-button.png);
+}
+#contentKeywordSearch .brandMarketplace .col .bgMarketplacce .textMarketplace p{
+  color: #9c9c9c;
+  margin-bottom: 0px;
+  font-size: 15px;
+  margin-top: 0px;
+}
+
+#contentKeywordSearch .biglogo {
+  text-align: center;
+}
+#contentKeywordSearch .biglogo img{
+  width: 200px;
+}
+
 
 #modalIG .modal-body {
   padding: 0px;
