@@ -42,7 +42,7 @@
 .content-header-admin .headPage ol li {
   color: #f9f9f9;
   font-size: 18px;
-}   
+}
 .content-header-admin .headPage ol li a{
   font-size: 18px;
   color: #f9f9f9;
@@ -63,7 +63,7 @@
   background-size: 100%;
   background-repeat: no-repeat;
   background-image: url(../img/bg-button-small.png);
-}   
+}
 .content-header-admin .head-form .input-group input {
   height: 45px;
   border-radius: 25px;
@@ -109,13 +109,24 @@
   padding-top: 10px;
   padding-right: 30px;
 }
+.chartModal .box {
+  border-top: 0px;
+  box-shadow: none;
+}
+.headingModalGrofik h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #29abe2;
+}
+
 #keywordIdeas .chart {
   width: auto;
   margin: 30px;
   margin-bottom: 0px;
 }
 #keywordIdeas .chart .box-info {
-  margin-bottom: 0px; 
+  margin-bottom: 0px;
 }
 #keywordIdeas .sosmedigtab {
   margin-top: 30px;
@@ -388,21 +399,3 @@
 .tableComment .pagingTable p i:hover{
   color: #29abe2;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
