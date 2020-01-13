@@ -104,7 +104,7 @@ img::-moz-selection {
   padding-top: 20px;
   position: absolute;
   width: 100%;
-  background: transparent;
+  background: #ffffff;
 }
 #navbarKreatif .navbar-toggler {
   border: 0px;
@@ -346,10 +346,21 @@ img::-moz-selection {
 #masterBanner {
   color: #ffffff;
   padding-top: 11rem;
-  padding-bottom: 14rem;
+  padding-bottom: 0px;
   background-size: 100%;
   background-repeat: no-repeat;
   background-image: url(../img/master/bg-top.png);
+}
+button.slick-prev {
+  top: 32px;
+  left: -30px;
+}
+button.slick-next {
+  top: 32px;
+  right: -30px;
+}
+.slick-prev:before, .slick-next:before {
+  color: #9c9c9c;
 }
 #masterBanner .descPower h1 {
   font-size: 60px;
@@ -362,10 +373,96 @@ img::-moz-selection {
 }
 #masterBanner .descPower p {
   color: #272854;
-  font-weight: 600;
+  font-size: 22px;
   margin-top: 15px;
 }
+.slider-nav-thumbnails {
+  margin-bottom: 30px;
+}
+.slider-nav-thumbnails .slick-list {
+  overflow: inherit;
+}
+.thumbsTop .dropdown-menu {
+  top: 9px !important;
+}
+.slideThumb .slider-nav-thumbnails {
+  z-index: 999;
+  position: relative;
+}
+.thumbsTop .dropdown-menu a {
+  color: #5e5e5e;
+  font-size: 14px;
+  font-weight: 100;
+  padding-bottom: 7px;
+}
+.thumbsTop .dropdown-menu a:hover {
+  color: #25b0ea;
+  background: #ffffff;
+}
+.slick-current .btnThumb .thumbsTop {
+  margin: auto;
+  width: 210px;
+  height: 50px;
+  cursor: pointer;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url(../img/master/bg-button-small.png);
+}
+.btnThumb .thumbsTop {
+  margin: auto;
+  width: 210px;
+  height: 50px;
+  color: #000000;
+  cursor: pointer;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: none;
+}
+.descSlideTop h2 {
+  margin: 0px;
+  color: #464646;
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+.descSlideTop p {
+  margin: 0px;
+  font-size: 15px;
+  color: #676767;
+}
+.explore h2 {
+  color: #25b0ea;
+  padding-top: 17px;
+}
+.explore h2 i{
+  font-size: 16px;
+}
 
+.btnThumb .thumbsTop p {
+  color: #0071bc;
+  font-weight: 600;
+  margin: 0px;
+  padding-top: 5px;
+  font-size: 16px;
+}
+.slick-current .btnThumb .thumbsTop p {
+  color: #ffffff;
+  font-weight: 600;
+  margin: 0px;
+  padding-top: 5px;
+  font-size: 16px;
+}
 #masterBanner .btnMaster a {
   color: #ffffff;
   display: block;
@@ -402,12 +499,18 @@ img::-moz-selection {
   margin-right: 10px;
 }
 #logoBrand {
+  color: #ffffff;
   overflow: hidden;
+  background: #29abe2;
 }
 #logoBrand .textBrand p {
   text-align: center;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 19px;
+}
+#logoBrand .listBrand ul {
+  overflow: hidden;
+  padding-left: 160px;
 }
 #logoBrand .listBrand ul li {
   float: left;
@@ -416,6 +519,12 @@ img::-moz-selection {
 }
 #logoBrand .listBrand ul li img {
   width: 150px;
+}
+#logoBrand .winner .colwinner .imgwinner img {
+  width: 100%;
+}
+#logoBrand .winner .colwinner .descwinner p {
+  font-size: 16px;
 }
 
 
@@ -649,8 +758,8 @@ img::-moz-selection {
 }
 
 .seo {
-  background-size: 35%;
-  background-image: url(../img/master/bg-laptop.png);
+  background-size: 55%;
+  background-image: url(../img/bgSEO.png);
   background-repeat: no-repeat;
   background-position: right;
   padding-top: 5rem !important;
