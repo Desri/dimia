@@ -128,10 +128,42 @@
 #keywordIdeas .chart .box-info {
   margin-bottom: 0px;
 }
+#keywordIdeas .chart .nav-tabs>li{
+  width: 200px;
+  text-align: center;
+}
+#keywordIdeas .chart .nav-tabs>li a{
+  font-size: 15px;
+}
+#keywordIdeas .chart .tab-content .tab-pane .box-info {
+  border-top: 0px;
+  padding-top: 35px;
+}
+#keywordIdeas .chart .nav-tabs>li.active>a {
+  color: #00c0ef;
+  border-right: 0px;
+  border-left: 0px;
+  background: #ffffff;
+  border-top: 3px solid #00c0ef;
+}
+#keywordIdeas .chart .nav>li>a {
+  background: #eeefef;
+}
+.textHeadSearch {
+  margin-bottom: 20px;
+}
+.textHeadSearch h2 {
+  margin: 0px;
+  font-weight: 600;
+}
+.textHeadSearch h2 span{
+  font-weight: 200;
+}
+
 #keywordIdeas .sosmedigtab {
   margin-top: 30px;
-  padding-left: 55px;
-  padding-right: 55px;
+  padding-left: 35px;
+  padding-right: 35px;
 }
 
 #keywordIdeas .sosmedigtab .keywordHead {
